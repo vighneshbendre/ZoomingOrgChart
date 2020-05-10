@@ -1,8 +1,7 @@
 tinymce.PluginManager.add('example', function(editor, url) {
     // Add a button that opens a window
-    editor.ui.registry.addButton('example', {
-        text: 'My button',
-        icon: false,
+    editor.ui.registry.addButton('example', {        
+        icon: close,
         onAction: function() {
             // Open window
             editor.windowManager.open({
